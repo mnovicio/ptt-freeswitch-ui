@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+         <!--<item name="android:spinnerStyle">@style/SpinnerStyle</item>-->
+        <item name="android:colorControlNormal">#D36C27</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItem</item>
+    </style>
+
+    <style name="SpinnerStyle" parent="Theme.AppCompat.Light.Dialog">
+        <!--<item name="android:backgroundTint">@color/transparent</item>-->
+        <!--<item name="android:dropDownVerticalOffset">0.1dp</item>-->
+    </style>
+
+    <style name="SpinnerItem" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">roboto</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#bfc6ea</item>
+        <!--<item name="android:backgroundTint">@color/spinner_triangle</item>-->
+    </style>
+
+    <style name="SpinnerDropDownItem" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">#bfc6ea</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:fontFamily">roboto</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">@drawable/pickerdivider</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <!--<item name="android:checkMark">@color/spinner_triangle</item>-->
+    </style>
+
+    <color name="spinner_triangle">#D36C27</color>
+    <color name="transparent">#ffffff</color>
+
+</resources>
