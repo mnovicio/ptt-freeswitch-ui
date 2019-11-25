@@ -1,5 +1,7 @@
 A Push-To-Talk and SIP Call/Messaging UI implemented in React Native.
 
+Using [Native Base](https://github.com/GeekyAnts/NativeBase) and [React Navigation](https://reactnavigation.org/).
+
 # Installation
 ```
 npm install
